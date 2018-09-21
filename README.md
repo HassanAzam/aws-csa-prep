@@ -58,3 +58,12 @@ months to setup an IT infrastructure or data center.
 - Vendor Lockin
 - Limited Control
 
+
+## Introduction to AWS
+- Amazon Web Services launched in 2006, to provide computing resources to businesses in the form
+  of web services.
+
+- As of Sept-2018, AWS provides various services ranging from Compute, Mobile, Machine Learning   ... and many others services.
+
+- Services Provided By AWS
+![alt text](awsservices.png)
