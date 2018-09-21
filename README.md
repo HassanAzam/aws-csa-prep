@@ -30,4 +30,14 @@ months to setup an IT infrastructure or data center.
      - Used by government agencies, financial institutions and large corporations.
      - more flexibility, improved security and high scalability
 
+- *Hybrid Cloud* :
+     - It combines best features of both private and public cloud
+     - In hybrid cloud, data and applications can move between private and public clouds
+     - For example, using public cloud for high traffic, lower security apps such as web based
+       email and using private cloud for sensitive, business critical operations like financial
+       operations.
+     - Cloud bursting, it means when high traffic is expected then the private cloud can use      more resources from the public cloud to handle the high volume.
+     - control, cost-effectiveness, ease of transitioning to cloud
+
+ 
 
