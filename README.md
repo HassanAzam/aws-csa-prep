@@ -40,4 +40,21 @@ months to setup an IT infrastructure or data center.
      - control, cost-effectiveness, ease of transitioning to cloud
 
  
+### Cloud Types
+![alt text](cloud.png)
+
+### Advantages of Cloud
+- Low cost
+- Easily upgrade
+- Always up and running
+- Disaster and Recovery management
+- No IT maintenanace cost
+- Offsite data storage
+- Access from anywhere
+
+### Disadvantages of Cloud
+- Without internet, you cannot access your servers and data
+- Securtiy and Privacy issues, like storing confidential information on cloud
+- Vendor Lockin
+- Limited Control
 
