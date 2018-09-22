@@ -88,6 +88,53 @@ months to setup an IT infrastructure or data center.
 
 ### Amazon S3
 
+- *Amazon Simple Storage Service* :
+	- Amazon S3 is an object storage service for storing data on cloud. It is simple, durable and comes with 99.9999% availability.
+	- It is also possible to run analytics on stored data.
+	- *Usecases* :
+		- Backup and Recovery
+		- Data Archiving
+		- Big Data Analytic
+		- Hybrid Cloud Storage
+		- Cloud Native Application Data
+		- Disaster Recovery 
+
+- Cloud Object Storage makes it possible to store practically limitless amounts of data in its native format.
+
+- *Advantages* :
+	- Buckets are the fundamental container in Amazon S3 for data storage.
+	- Each object can contain upto 5TB of data and we can store as many objects as we like in a bucket.
+	- Can grant or deny access to data. Grant upload and download permissions.
+	- Standard interfaces for uploading and retrieving data, SOAP and REST based interfaces. 
+
+- *Limitations* :
+	- By default, 100 buckets are allowed in an AWS account.
+	- Bucket limit can be increase with a request.
+	- Bucket nesting is not allowed.
+	- High availability is for get,put,list and delete opertions.
+
+- S3 normally used for storing media files.
+
+#### Storage Classes
+
+- Storage classes for frequently accessed objects
+	- STANDARD
+	- REDUCED_REDUNDANCY
+
+- Storage Classes for Infrequently Accessed Objects
+	- STANDARD_IA
+	- ONEZONE_IA
+
+- The GLACIER storage class is suitable for archiving data where data access is infrequent. 
+  Archived objects are not available for real-time access. You must first restore the objects before you can access them.
+
+- We can use Storage Classes Analysis to find perfect storage class for objects by looking at S3 access logs
 
 
+#### Bucket Policy
+
+ 
 ### Amazon Glacier
+
+
+
