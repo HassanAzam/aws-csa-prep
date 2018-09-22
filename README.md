@@ -77,3 +77,17 @@ months to setup an IT infrastructure or data center.
 - AWS has Identity and Access Management service, to create users account for specific job roles and to ensure secure access to services.
   We will look at IAM later, for now just checkout the video below to see how an IAM user is created.
   [Creating user with IAM](https://youtu.be/G_4pRb8HsWs)
+
+
+### AWS Services Description
+
+- [Amazon S3](#amazon-s3)
+- [Amazon Glacier](#amazon-glacier)
+
+
+
+### Amazon S3
+
+
+
+### Amazon Glacier
