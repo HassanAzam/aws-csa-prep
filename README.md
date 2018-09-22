@@ -60,6 +60,7 @@ months to setup an IT infrastructure or data center.
 
 
 ## Introduction to AWS
+
 - Amazon Web Services launched in 2006, to provide computing resources to businesses in the form
   of web services.
 
@@ -67,3 +68,12 @@ months to setup an IT infrastructure or data center.
 
 - Services Provided By AWS
 ![alt text](awsservices.png)
+
+
+### AWS Account Creation
+
+- [Creating an AWS Account](https://www.youtube.com/watch?v=WviHsoz8yHk)
+
+- AWS has Identity and Access Management service, to create users account for specific job roles and to ensure secure access to services.
+  We will look at IAM later, for now just checkout the video below to see how an IAM user is created.
+  [Creating user with IAM](https://youtu.be/G_4pRb8HsWs)
