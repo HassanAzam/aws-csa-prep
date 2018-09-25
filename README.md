@@ -160,12 +160,15 @@ months to setup an IT infrastructure or data center.
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
 - [Using AWS S3 via Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html)
 
 - [Hosting Static website on AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
 
 - [More Details](https://docs.aws.amazon.com/s3/index.html)
 
+&nbsp;
+&nbsp;
  
 ### Amazon Glacier
 
