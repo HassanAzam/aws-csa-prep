@@ -157,9 +157,9 @@ months to setup an IT infrastructure or data center.
 - Expiration actions: to delete objects after certain amount of time
 - We can enable this option to manage lifecycle of objects
 
-  
-  
-    
+&nbsp;
+&nbsp;
+&nbsp;
 - [Using AWS S3 via Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html)
 
 - [Hosting Static website on AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
