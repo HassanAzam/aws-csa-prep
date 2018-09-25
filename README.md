@@ -157,7 +157,9 @@ months to setup an IT infrastructure or data center.
 - Expiration actions: to delete objects after certain amount of time
 - We can enable this option to manage lifecycle of objects
 
-
+  
+  
+    
 - [Using AWS S3 via Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html)
 
 - [Hosting Static website on AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
@@ -167,4 +169,36 @@ months to setup an IT infrastructure or data center.
  
 ### Amazon Glacier
 
+- Amazon Glacier is another cloud storage service related to Amazon S3, but optimized for data archiving and long-term backup at extremely
+  low cost. It is suitable for data which is rarely accessed and have acceptable retrieval time of about 3-5 hours.
+
+- *Vault* : It is a container in AWS Glacier for storing archives. Each vault resource has a unique address.
+
+- You can store unlimited archives in a vault.
+
+- *Archive* : An archive can be any data such as photo, video or document and is a base unit of storage in Amazon Glacier.
+- example url to an archive : https://region-endpoint/account-id/vaults/vault-name/archives/archive-id
+
+- *Job* : Retrieving an archive and vault inventory (list of archives) are asynchronous operations in Amazon Glacier
+  in which you first initiate a job, and then download the job output after Amazon Glacier completes the job. With
+  Amazon Glacier, data retrieval requests are queued and most jobs take about four hours to complete.
+
+- *Notification Configuration* : Because jobs take time to complete, Amazon Glacier supports a notification mechanism to
+  notify you when a job is completed. You can configure a vault to send notification to an Amazon Simple Notification Service
+  (SNS) topic when jobs complete.
+
+	- One SNS topic per vault
+
+- *Amazon Glacier Supported Operations* :
+	- create and delete vaults
+	- set, retrieve and delete a notification
+
+	- upload and delete archives
+	- There is no update archive option, you have to delete an existing archive in order to update it.
+	
+	- initiate a job, get job description, retrieve a list of jobs associated with a vault, 
+	
+- Following operations are asynchronous : Retrieving an archive and Retrieving a list of archives
+
+- [AWS Glacier Documentation](https://docs.aws.amazon.com/glacier/index.html)
 
