@@ -130,11 +130,41 @@ months to setup an IT infrastructure or data center.
 
 - We can use Storage Classes Analysis to find perfect storage class for objects by looking at S3 access logs
 
+- More details of storage classes at [Storage Classes](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html)
+
 
 #### Bucket Policy
 
+- Bucket policy and user policy are two of the access policy options available for you to grant permission to your Amazon S3 resources. Both use JSON-based access policy language.
+
+	- [AWS S3 Bucket Policies](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-bucket-policies.html)
+
+#### Bucket Naming Convention
+
+- Bucket name must follow the standard DNS naming convention.
+
+#### Versioning
+
+- Versioning enables you to keep multiple versions of an object in one bucket in order to be safe from
+  unintented overwrites and deletions and it is also used as backup.
+
+- It can be set by enabling Versioning option in bucket properties.
+
+#### Lifecycle Configurations
+
+- Lifecycle configs of objects means that setting policies transition and expiration actions.
+- Transition actions: to change storage class of objects that have not been accessed since 30 days to STANDARD_IA or after 1 year to GLACIER
+- Expiration actions: to delete objects after certain amount of time
+- We can enable this option to manage lifecycle of objects
+
+
+- [Using AWS S3 via Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html)
+
+- [Hosting Static website on AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
+
+- [More Details](https://docs.aws.amazon.com/s3/index.html)
+
  
 ### Amazon Glacier
-
 
 
